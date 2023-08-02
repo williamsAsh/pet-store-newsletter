@@ -1,0 +1,22 @@
+/* Theme */
+
+$primary-color: #fff;
+$secondary-color: #340458;
+$bg-color: #fed636;
+$font-stack: 'Open Sans', 'Helvetica', sans-serif;
+
+/* End Theme */
+
+html,
+div,
+p {
+    font: 100% $font-stack;
+    color: $primary-color;
+}
+
+body {
+    background-image: url('../assets/pet-bg-purple.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}

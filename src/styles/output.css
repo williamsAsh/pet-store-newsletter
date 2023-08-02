@@ -1,0 +1,45 @@
+/* Theme */
+/* End Theme */
+/* Header tag Styles */
+.h1-welcome {
+  font-weight: 600;
+}
+
+.h1-border-background {
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 20px;
+  width: 10%;
+}
+
+.h1-border-background::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  /* Adjusts the spacing between h1 and border */
+  background-color: #fff;
+}
+
+/* Form Styles */
+.form-style {
+  background-color: #fed636;
+  color: #340458;
+  border-radius: 5px;
+}
+
+.invalid-feedback {
+  display: block !important;
+}
+
+button.btn-custom {
+  background-color: #340458;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=output.css.map */
