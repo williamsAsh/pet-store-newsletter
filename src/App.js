@@ -12,7 +12,7 @@ import './styles/styles.scss';
 import './styles/globalStyles.scss';
 import FormValidation from './components/form';// imports form validation
 import Header from './components/Header'; //imports the header
-
+import Footer from './components/footer'; //imports the footer
 function App() {
   return (
     <div className="App">
@@ -35,6 +35,7 @@ function App() {
         </div>
       </div>
     </div>
+    <Footer />
     </div>
   );
 }
