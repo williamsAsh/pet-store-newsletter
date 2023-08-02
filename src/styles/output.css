@@ -1,8 +1,9 @@
-/* Theme */
+/* Theme Colours and fonts */
 /* End Theme */
 /* Header tag Styles */
 .h1-welcome {
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .h1-border-background {
@@ -19,7 +20,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 10px;
+  height: 5px;
   /* Adjusts the spacing between h1 and border */
   background-color: #fff;
 }
@@ -31,12 +32,24 @@
   border-radius: 5px;
 }
 
+.transparent-bg {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
 .invalid-feedback {
   display: block !important;
 }
 
+.box-shadow {
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Button Styles */
 button.btn-custom {
-  background-color: #340458;
+  background-color: #fed636;
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;

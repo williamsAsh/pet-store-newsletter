@@ -15,9 +15,9 @@ import Header from './components/Header'; //imports the header
 import Footer from './components/footer'; //imports the footer
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
-      <div className="container">
+      <div className="container mt-5 p-md-5 box-shadow">
       <div className="row">
         <div className="col-md-6">
           <h1 className="h1-welcome h1-border-background">Welcome</h1>
@@ -27,7 +27,7 @@ function App() {
             nec nunc euismod suscipit.
           </p>
         </div>
-        <div className="col-md-6 col-lg-6 col-xl-3">
+        <div className="col-md-6 col-lg-6 col-xl-3 transparent-bg">
           <h2>Sign Up</h2>
           <p>
             <FormValidation />
