@@ -15,12 +15,16 @@ https://github.com/williamsAsh/pet-store-newsletter
 
 2. Open the cloned folder in your preferred code editor, install the required dependencies by running the following command in the terminal:
 
-Install:
-
-
 ```bash
 
 npm install
+```
+
+3. Start the development server by running the following command:
+
+```bash
+npm run dev
+
 ```
 ## Usage
 - Tab functionality with ease around the landing page
