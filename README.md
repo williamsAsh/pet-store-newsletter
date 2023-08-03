@@ -1,28 +1,40 @@
 # PET STORE NEWSLETTER
 
-A brief description of what this project does.
+This is a HTML signup form using modern frontend technologies that complies with accessibility rules.
 
-## Installation
+## Getting Started
 
-Instructions on how to install and set up the project.
+To get started with the project in your local development environment, follow these steps:
 
+1. Clone the repository to your local machine.
+
+```bash
+https://github.com/williamsAsh/pet-store-newsletter
+
+```
+
+2. Open the cloned folder in your preferred code editor, install the required dependencies by running the following command in the terminal:
+
+Install:
+
+
+```bash
+
+npm install
+```
 ## Usage
-
-How to use the project and some usage examples.
+- Tab functionality with ease around the landing page
+- The sign up form will give errors if not filled out properly and will give you guidlines to make it validate.
+- **There is no backend functionality**
 
 ## Features
 
-- Feature 1
-- Feature 2
+- aria-labels for main navigation, descriptive alt tags and ease of use tabbing function thorought the landing page.
 
-## Contributing
+- Ensures colour contrast ratio in the design to meet the standards of Web Content Accessibility Guidelines (WCAG).
 
-Please read the [Contribution Guidelines](CONTRIBUTING.md) before submitting a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+- Form validation with error messages to ensure the user
 
 ## Contact
 
-For questions or feedback, you can reach us at contact@example.com.
+For questions or feedback, you can reach me at williams.a.law@gmail.com
